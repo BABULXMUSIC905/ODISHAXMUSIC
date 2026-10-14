@@ -7,19 +7,19 @@ from pyrogram import filters
 load_dotenv()
 
 # Get from my.telegram.org/app
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "32757654"))
+API_HASH = getenv("API_HASH", "7c0480a3292edbf8218e6e668c2fb4af")
 
 # Get from @BotFather
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "8732616854:AAGAnV3TsnkyuFz2BEfdH1Rya-6RAuMDs6s")
 
 # Get from MongoDB Atlas
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999999999999999999"))
 
-LOGGER_ID = int(getenv("LOGGER_ID", "0"))
-OWNER_ID = int(getenv("OWNER_ID", "8092368726"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003511538379"))
+OWNER_ID = int(getenv("OWNER_ID", "8527813742"))
 
 # Heroku App Name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
@@ -29,7 +29,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Ora-Repo-RP/Ora-New-Repo",
+    "https://github.com/BABULXMUSIC905/ODISHAXMUSIC",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
@@ -40,12 +40,12 @@ GIT_TOKEN = getenv("GIT_TOKEN")
 
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL",
-    "https://t.me/Ora_Network"
+    "https://t.me/BOSS_OF_BABUL_OH"
 )
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_CHAT",
-    "https://t.me/+xnUCDYVIAONlMzNl"
+    "https://t.me/QueenSupportChatBot"
 )
 
 AUTO_LEAVING_ASSISTANT = getenv(
@@ -85,18 +85,18 @@ confirmer = {}
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/yr5mtp.jpg"
+    "https://anya-file-host.vercel.app/jm95g64vfw"
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/yr5mtp.jpg"
+    "https://anya-file-host.vercel.app/jm95g64vfw"
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/yr5mtp.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/yr5mtp.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/yr5mtp.jpg"
+STATS_IMG_URL = "https://anya-file-host.vercel.app/jm95g64vfw"
+TELEGRAM_AUDIO_URL = "https://anya-file-host.vercel.app/jm95g64vfw"
+TELEGRAM_VIDEO_URL = "https://anya-file-host.vercel.app/jm95g64vfw"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
